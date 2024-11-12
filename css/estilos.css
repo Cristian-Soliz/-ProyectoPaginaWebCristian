@@ -15,17 +15,32 @@ li a:hover{color: #e2430c;
            background-color: #FFAAAA;}    
 .banner{width: 100%;
         height: 350px;
-        background-image: url("../imagenes/10444279.jpg");}
+        background-image: url("../imagenes/10444279.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 70%;
+        }
 .marcocolumnas{display: flex;
                justify-content: space-around;
                align-items: center;
                gap: 10px;}
+.marcocolumnas img{width: 100%;}
 .columna{flex: 1px;
          background-color: #f0f0f0;
-         border: 1px solid #2e89b3}
-.colorverde{background-color: rgb(120, 187, 100);}
-.colorrojo{background-color: #c55d64;}
-.coloramarillo{background-color: #cfd164;}
+         border: 1px solid #2e89b3;}
+.colorverde{background-color: #0d9acf;}
+.colorrojo{background-color: #aadae5;}
+.coloramarillo{background-color: #e2430c;}
+.formulario{width: 50%;
+            padding: 15px;}
+form{width: 80%;
+     padding: 15px;
+     margin: auto;}
+input{width: 100%; 
+      padding: 5px;
+      border-radius:5px;
+      margin: 10px;}
+textarea{width: 50%;margin: 10px;}
 .footer{
         width: 100%;
         height: 120px;
